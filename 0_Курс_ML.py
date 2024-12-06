@@ -99,6 +99,20 @@ with col1:
     st.code("python -m pip install streamlit_code_editor")
     st.markdown("replacing `python` with the correct version of python for your setup (e.g. `python3` or `python3.8`). Or if you are certain the correct version of python will be used to run pip, you can install with just:")
     st.code("pip install streamlit_code_editor")
+
+    st.markdown("#### Схема или рисунок")
+    st.markdown("After importing the module, you can .... tring:")
+    st.image("pages/resources/code_editor_layout.png")
+
+    st.markdown("#### Формула в формате LaTex")
+    st.markdown("Вставка формул и математических выражений в формате LaTex:")
+    st.latex(r'''
+            a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
+            \sum_{k=0}^{n-1} ar^k =
+            a \left(\frac{1-r^{n}}{1-r}\right)
+            ''')
+
+
     st.markdown("#### Видео-курс")
     st.markdown("After importing the module, you can call the `code_editor` function with just a string:")
     st.markdown("Without specifying a language, the editor will default to `python`. You can also specify a language with the `lang` argument:")
@@ -108,17 +122,7 @@ with col1:
     st.markdown("The two blocks of code above are displayed in code editors. As the name of the component implies, you can edit the code. Try it out! ")
     st.markdown("By default, each code editor is styled like streamlit's [code block element](https://docs.streamlit.io/library/api-reference/text/st.code). The next sections will go over how to customize the styling of the editor.")
 
-    st.markdown("#### Схема или рисунок")
-    st.markdown("After importing the module, you can .... tring:")
-    st.image("pages/resources/code_editor_layout.png")
 
-    st.markdown("#### Формула в формате LaTex")
-    st.markdown("Вставка формул и математических выражений в формате LaTex:")
-    st.latex(r'''
-        a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
-        \sum_{k=0}^{n-1} ar^k =
-        a \left(\frac{1-r^{n}}{1-r}\right)
-        ''')
 
     st.subheader('Разное')
     st.write('''
