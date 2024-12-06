@@ -1,6 +1,4 @@
-import json
 import streamlit as st
-from code_editor import code_editor
 
 html_style_string = '''<style>
 @media (min-width: 576px)
