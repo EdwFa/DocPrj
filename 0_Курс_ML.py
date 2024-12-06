@@ -84,7 +84,7 @@ with col1:
 
     st.markdown("#### Схема или рисунок")
     st.markdown("After importing the module, you can .... tring:")
-    st.image("pages/resources/code_editor_layout.png")
+    st.image("pages/resources/1_P/code_editor_layout.png")
 
     st.markdown("#### Формула в формате LaTex")
     st.markdown("Вставка формул и математических выражений в формате LaTex:")
@@ -117,7 +117,7 @@ with col1:
     st.success("**Tip:** If you set both `minLines` and `maxLines` to the same value, the editor will fix its size to fit only that number of lines of text. This is useful if you want the editor to have a static size and you want to size it according to number of lines to show.")
     st.info("**Note:** The height property does not limit the contents of the editor. Content that exceeds the height will be scrollable.")
 
-    st.header('Mod 2')
+    st.header('Модуль-2')
     st.write('''
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus. Amet mauris commodo quis imperdiet. In metus vulputate eu scelerisque. Facilisis gravida neque convallis a cras semper. Quis vel eros donec ac odio. Posuere urna nec tincidunt praesent semper feugiat nibh sed. Vitae et leo duis ut. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Scelerisque varius morbi enim nunc faucibus a. Eget velit aliquet sagittis id consectetur purus ut. Massa eget egestas purus viverra. Libero justo laoreet sit amet cursus sit. Nibh nisl condimentum id venenatis a condimentum vitae sapien.
 
@@ -137,6 +137,7 @@ floating_side_bar = '''
     <a href="#1d224f18">Рисунок</a>
     <a href="#3698d889">Формула</a>
     <a href="#343c37c">Разное</a>
+    <a href="#4914f6ad">Модули</a>
     <span class="flt-bar-hd"> Ссылки </span>
     <a href="https://ml.datamed.pro/">Sechenov.AutoML</a>
     <a href="https://docs.streamlit.io/library/api-reference/text/st.code">Руководство</a>
