@@ -55,7 +55,6 @@ section div.block-container {
 </style>'''
 
 st.markdown(html_style_string, unsafe_allow_html=True)
-
 col1, col2 = st.columns([6,2])
 with col1:
     st.markdown("## О курсе")
