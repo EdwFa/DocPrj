@@ -56,23 +56,6 @@ section div.block-container {
 
 st.markdown(html_style_string, unsafe_allow_html=True)
 
-# Opening JSON file
-# You can also just use a dictionary but with files (JSON or text for example),
-# its easier to transfer or use in multiple projects
-with open('pages/resources/example_custom_buttons_bar_adj.json') as json_button_file:
-    custom_buttons_alt = json.load(json_button_file)
-
-with open('pages/resources/example_custom_buttons_set.json') as json_button_file:
-    custom_buttons = json.load(json_button_file)
-
-# Load Info bar CSS from JSON file
-with open('pages/resources/example_info_bar.json') as json_info_file:
-    info_bar = json.load(json_info_file)
-
-# Load Code Editor CSS from file
-with open('pages/resources/code_editor.scss') as css_file:
-    css_text = css_file.read()
-
 col1, col2 = st.columns([6,2])
 with col1:
     st.markdown("## О курсе")
@@ -111,7 +94,6 @@ with col1:
             \sum_{k=0}^{n-1} ar^k =
             a \left(\frac{1-r^{n}}{1-r}\right)
             ''')
-
 
     st.markdown("#### Видео-курс")
     st.markdown("After importing the module, you can call the `code_editor` function with just a string:")
