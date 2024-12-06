@@ -35,5 +35,6 @@ section div.block-container {
 }
 </style>'''
 
+
 st.markdown(html_style_string, unsafe_allow_html=True)
 

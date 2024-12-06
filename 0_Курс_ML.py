@@ -102,7 +102,7 @@ with col1:
     st.markdown("#### Видео-курс")
     st.markdown("After importing the module, you can call the `code_editor` function with just a string:")
     st.markdown("Without specifying a language, the editor will default to `python`. You can also specify a language with the `lang` argument:")
-    video_file = open('pages\\resources\\1_P\\mod1_1.mp4', 'rb')
+    video_file = open('pages/resources/1_P/mod1_1.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
     st.markdown("The two blocks of code above are displayed in code editors. As the name of the component implies, you can edit the code. Try it out! ")
